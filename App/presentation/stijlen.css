@@ -1,0 +1,139 @@
+/* Algemeen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Stijlen voor de broodjeslijst */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    width: 70%;
+}
+
+li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #444444;
+    color: #fff;
+    cursor: pointer;
+    float: right;
+}
+
+button:hover {
+    background-color: #b6b6b6;
+}
+
+table {
+    width: 70%; /* Beperk de breedte van de tabel */
+    margin: 0 auto; /* Centreer de tabel op de pagina */
+}
+
+/* Stijlen voor het bestelformulier */
+#bestelformulier {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="time"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #444444;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #b6b6b6;
+}
+
+/* Stijlen voor de header */
+nav {
+    background-color: #5a5a5a;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #5a5a5a;
+}
+
+/* Stijlen specifiek voor het inlogformulier */
+form {
+    max-width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"],
+input[type="button"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #444444;
+    color: #fff;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="button"]:hover {
+    background-color: #b6b6b6;
+}
